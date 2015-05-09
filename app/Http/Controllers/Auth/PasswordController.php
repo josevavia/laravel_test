@@ -1,6 +1,6 @@
-<?php namespace LaravelTest\Http\Controllers\Auth;
+<?php namespace MyLaravel\Http\Controllers\Auth;
 
-use LaravelTest\Http\Controllers\Controller;
+use MyLaravel\Http\Controllers\Controller;
 use Illuminate\Contracts\Auth\Guard;
 use Illuminate\Contracts\Auth\PasswordBroker;
 use Illuminate\Foundation\Auth\ResetsPasswords;

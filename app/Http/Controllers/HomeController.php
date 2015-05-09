@@ -1,4 +1,4 @@
-<?php namespace LaravelTest\Http\Controllers;
+<?php namespace MyLaravel\Http\Controllers;
 
 class HomeController extends Controller {
 

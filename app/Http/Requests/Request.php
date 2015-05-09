@@ -1,4 +1,4 @@
-<?php namespace LaravelTest\Http\Requests;
+<?php namespace MyLaravel\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 

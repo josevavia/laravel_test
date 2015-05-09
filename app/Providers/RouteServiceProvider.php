@@ -1,4 +1,4 @@
-<?php namespace LaravelTest\Providers;
+<?php namespace MyLaravel\Providers;
 
 use Illuminate\Routing\Router;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
@@ -12,7 +12,7 @@ class RouteServiceProvider extends ServiceProvider {
 	 *
 	 * @var string
 	 */
-	protected $namespace = 'LaravelTest\Http\Controllers';
+	protected $namespace = 'MyLaravel\Http\Controllers';
 
 	/**
 	 * Define your route model bindings, pattern filters, etc.

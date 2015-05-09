@@ -1,4 +1,4 @@
-<?php namespace LaravelTest\Commands;
+<?php namespace MyLaravel\Commands;
 
 abstract class Command {
 

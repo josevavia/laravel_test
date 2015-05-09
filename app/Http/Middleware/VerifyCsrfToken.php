@@ -1,4 +1,4 @@
-<?php namespace LaravelTest\Http\Middleware;
+<?php namespace MyLaravel\Http\Middleware;
 
 use Closure;
 use Illuminate\Foundation\Http\Middleware\VerifyCsrfToken as BaseVerifier;

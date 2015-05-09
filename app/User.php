@@ -1,4 +1,4 @@
-<?php namespace LaravelTest;
+<?php namespace MyLaravel;
 
 use Illuminate\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;

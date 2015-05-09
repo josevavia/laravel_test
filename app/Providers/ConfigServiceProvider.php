@@ -1,4 +1,4 @@
-<?php namespace LaravelTest\Providers;
+<?php namespace MyLaravel\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

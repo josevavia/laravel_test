@@ -1,4 +1,4 @@
-<?php namespace LaravelTest\Providers;
+<?php namespace MyLaravel\Providers;
 
 use Illuminate\Bus\Dispatcher;
 use Illuminate\Support\ServiceProvider;
@@ -16,7 +16,7 @@ class BusServiceProvider extends ServiceProvider {
 		$dispatcher->mapUsing(function($command)
 		{
 			return Dispatcher::simpleMapping(
-				$command, 'LaravelTest\Commands', 'LaravelTest\Handlers\Commands'
+				$command, 'MyLaravel\Commands', 'MyLaravel\Handlers\Commands'
 			);
 		});
 	}

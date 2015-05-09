@@ -1,4 +1,4 @@
-<?php namespace LaravelTest\Providers;
+<?php namespace MyLaravel\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -27,7 +27,7 @@ class AppServiceProvider extends ServiceProvider {
 	{
 		$this->app->bind(
 			'Illuminate\Contracts\Auth\Registrar',
-			'LaravelTest\Services\Registrar'
+			'MyLaravel\Services\Registrar'
 		);
 	}
 

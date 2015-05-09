@@ -1,4 +1,4 @@
-<?php namespace LaravelTest\Events;
+<?php namespace MyLaravel\Events;
 
 abstract class Event {
 
